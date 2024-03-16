@@ -1,0 +1,188 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.portfolio-sections{
+	height: 360px;
+	width: 100%;
+	border: 2px solid black;
+	text-align: center;
+	background-color: white;
+}
+.navigation-bar{
+	position: fixed;
+	width: 100%;
+	background-color: transparent;
+	backdrop-filter: blur(10px);
+	z-index: 1;
+}
+.portfolio-sections h1{
+	margin-top: 60px;
+}
+html{
+	scroll-behavior: smooth;
+}
+.main-container{
+	position: relative;
+	top: 75px;
+}
+.brand{
+	font-size: 30px;
+	font-family: Times New Roman;
+	font-weight: bolder;
+	font-variant: small-caps;
+	color: brown;
+}
+.navmenu{
+	color: black;
+	font-size: 20px;
+	font-family: Times New Roman;
+	font-weight: bolder;
+	padding-left: 15px;
+}
+.navmenu:hover{
+	text-decoration: underline 2px solid black;
+	text-underline-offset: 6px;
+}
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#home{
+	height: 370px;
+	background-image: url(https://media4.giphy.com/media/L8K62iTDkzGX6/giphy.gif);
+	background-repeat: no-repeat;
+	background-size: 24%;
+	background-position: 90% 60%;
+	border: none;
+}
+
+#home-info{
+	position: absolute;
+	top: 20px;
+	width: 400px;
+	height: 250px;
+	font-size: 25px;
+	margin-top: 50px;
+	margin-left: 70px;
+	text-align: left;
+
+}
+
+.info{
+	font-weight: bolder;
+	color: black;
+	font-family: Times New Roman;
+}
+.designation{
+	color: black;
+	font-size: 30px;
+	font-weight: bolder;
+}
+.myname{
+	font-size: 35px;
+}
+
+.rsmbtn{
+	height: 40px;
+	width: 100px;
+	border: none;
+	margin-top: 20px;
+	border-radius: 10px;
+	font-size: 15px;
+	font-weight: bolder;
+	background-color: royalblue;
+	color: white;
+	transition-duration: 1s;
+}
+
+.rsmbtn:hover{
+	background-color: white;
+	color: royalblue;
+	border: 3px solid royalblue;
+	transform: scale(1.1);
+}
+
+.about-section{
+	height: 500px;
+	width: 100%;
+	background-color: whitesmoke;
+}
+
+.aboutmain{
+	height: 500px;
+	width: 100%;
+	display: flex;
+	font-size: 25px;
+	font-family: Times New Roman;
+	font-weight: bolder;
+}
+
+.aboutmain div{
+	height: 500px;
+	width: 50%;
+}
+
+.minion{
+	margin-top: 100px;
+	margin-left: 60px;
+	margin-right: 90px;
+	animation-duration: 4s;
+	animation-name: zoom;
+	animation-iteration-count: 1;
+}
+
+@keyframes zoom{
+	100%{
+		transform: scale(1.2);
+		border-radius: 60px;
+	}
+}
+
+.heading{
+	font-family: Times New Roman;
+	text-align: center;
+	margin: 30px 0px;
+	font-size: 40px;
+	color: blue;
+	font-weight: bolder;
+}
+
+.carrerobj{
+	padding: 30px;
+}
+
+.carrerinfo{
+	text-align: justify;
+	line-height: 40px;
+	text-indent: 100px;
+	word-spacing: 7px;
+	letter-spacing: 1px;
+}
+
+
